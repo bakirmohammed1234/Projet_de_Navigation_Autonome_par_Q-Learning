@@ -37,10 +37,21 @@ Le comportement de l'agent est dicté par les scores suivants :
 ## 🧠= Algorithme Utilisé : Q-Learning
 
 Le projet utilise l'algorithme de **Q-Learning** pour remplir une table de décision (Q-Table). La mise à jour de la connaissance se fait via l'équation de Bellman :
+
 <img width="720" height="122" alt="image" src="https://github.com/user-attachments/assets/a4e1211d-dda9-4307-a63a-554480a2739b" />
+
 * **Alpha (0.1)** : Vitesse à laquelle l'agent intègre les nouvelles informations.
 * **Gamma (0.9)** : Importance accordée aux récompenses futures.
 * **Epsilon (0.2)** : Probabilité de tester des actions aléatoires pour découvrir de nouveaux chemins.
+
+##  Résultats du Test
+Une fois l'apprentissage terminé, l'agent trouve le chemin optimal en 11 étapes pour récupérer l'objet en (1,1) et le livrer en (1,5).
+
+<img width="582" height="311" alt="image" src="https://github.com/user-attachments/assets/24d032ad-909a-4fdc-9682-78088167d499" />
+
+> **Note :** Comme illustré ci-dessus, le robot optimise son trajet en évitant les obstacles et en effectuant les actions de chargement/déchargement aux coordonnées précises définies dans l'énoncé.
+
+
 
 ##  Comment l'utiliser ?
 
